@@ -197,7 +197,29 @@
   <img src="seebees-logo.png" alt="Seebees Logo" style="width: 80px; height: auto; margin-top: 0.5rem;"> 
 </div>
 
-    <div style="text-align: center; margin: 2rem 0; font-style: italic; color: #555;">
+<section class="contact-form-section" style="margin-top: 4rem;">
+  <h2>Request a Quote</h2>
+  <form action="https://formsubmit.co/seebeesrego@gmail.com" method="POST" style="display: flex; flex-direction: column; gap: 1rem;">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+    <input type="email" name="email" placeholder="Email Address" required>
+    <select name="service" required>
+      <option value="">Select a Service</option>
+      <option value="Rats & Mice">Rats & Mice</option>
+      <option value="Cockroaches">Cockroaches</option>
+      <option value="Spiders">Spiders</option>
+      <option value="Bedbugs">Bedbugs</option>
+      <option value="Ants">Ants</option>
+      <option value="Fleas">Fleas</option>
+      <option value="Wasps">Wasps</option>
+      <option value="Flies">Flies</option>
+    </select>
+    <textarea name="message" rows="4" placeholder="Tell us about the issue..." required></textarea>
+    <button type="submit" style="padding: 0.75rem; background: #000; color: #fff; border: none; border-radius: 6px; font-weight: 600;">Send Request</button>
+  </form>
+</section>
+
+<div style="text-align: center; margin: 2rem 0; font-style: italic; color: #555;">
   <p>"Pests may be small, but the problems they cause are big."</p>
   <br>
   <p>"Our mission is to make your home safe, clean, and pest-free — one visit at a time."</p>
